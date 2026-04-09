@@ -51,7 +51,10 @@ html,body{width:100%;min-height:100vh;font-family:var(--font);background:#111;di
 .form-row{display:flex;gap:16px}
 .form-row>*{flex:1}
 .gift-float{animation:float 3s ease-in-out infinite}
-#lottie-auth{width:450px;height:450px;flex-shrink:0}
+div[id*="lottie"] {
+  width: 450px;
+  height: 450px;
+}
 .auth-deco{position:absolute;opacity:.22;user-select:none;pointer-events:none}
 
 /* UNLOCK */
